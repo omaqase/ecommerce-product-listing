@@ -24,7 +24,7 @@ export const BooksList = () => {
 		"",
 		DEBOUNCE_DELAY,
 	);
-	const { page, setPage, nextPage, prevPage } = usePagination(
+	const { page, nextPage, prevPage } = usePagination(
 		1,
 		totalPages || 1,
 	);

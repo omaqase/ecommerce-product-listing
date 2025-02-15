@@ -1,5 +1,4 @@
 import { ENDPOINTS } from "./consts";
-import { Book } from "@/types/book";
 import { fetchApi } from "./api";
 import type { BooksResponse } from "./types";
 
