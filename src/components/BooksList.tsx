@@ -24,10 +24,7 @@ export const BooksList = () => {
 		"",
 		DEBOUNCE_DELAY,
 	);
-	const { page, nextPage, prevPage } = usePagination(
-		1,
-		totalPages || 1,
-	);
+	const { page, nextPage, prevPage } = usePagination(1, totalPages || 1);
 	const { sort, handleSortChange } = useSort("rating_desc");
 
 	useEffect(() => {
